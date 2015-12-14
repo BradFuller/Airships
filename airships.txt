@@ -1,0 +1,11 @@
+"gamemode"
+{
+    "title"     "Airships"
+    "maps"      "^as_"
+    "base"      "base"
+    "menusystem"	"1"
+
+    "author_name"   "Figel Narage"
+    "author_email"  "n/a"
+    "author_url"    "n/a"
+}
