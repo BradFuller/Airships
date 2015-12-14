@@ -5,7 +5,7 @@ GM.RenderTools = GAMEMODE and GM.RenderTools or {}
 
 -- Tables are {"internal toolname", DonatorOnly bool, Enabled? bool},
 GM.ConstraintTools = {
-	{"axis", false, false}, 		{"ballsocket", false, false},
+	{"axis", false, false}, 	{"ballsocket", false, false},
 	{"elastic", false, false}, 	{"hydraulic", false, false},
 	{"motor", false, true}, 	{"muscle", false, false}, 
 	{"pulley", false, false}, 	{"rope", false, true}, 
