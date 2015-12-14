@@ -5,27 +5,27 @@ GM.RenderTools = GAMEMODE and GM.RenderTools or {}
 
 -- Tables are {"internal toolname", DonatorOnly bool, Enabled? bool},
 GM.ConstraintTools = {
-	{"axis", false, true}, 		{"ballsocket", false, true},
-	{"elastic", false, true}, 	{"hydraulic", false, true},
-	{"motor", false, true}, 	{"muscle", false, true}, 
-	{"pulley", false, true}, 	{"rope", false, true}, 
-	{"slider", false, true}, 	{"weld", false, true},
-	{"winch", false, true}
+	{"axis", false, false}, 		{"ballsocket", false, false},
+	{"elastic", false, false}, 	{"hydraulic", false, false},
+	{"motor", false, true}, 	{"muscle", false, false}, 
+	{"pulley", false, false}, 	{"rope", false, true}, 
+	{"slider", false, false}, 	{"weld", false, true},
+	{"winch", false, false}
 }
 
 GM.ConstructionTools = {
-	{"balloon", false, true},	{"button", false, true},
-	{"duplicator", false, false},{"dynamite", false, true},
-	{"emitter", false, false}, 	{"hoverball", false, true},
-	{"lamp", false, false}, 		{"light", false, false},
+	{"balloon", false, true},	{"button", false, false},
+	{"duplicator", false, false},   {"dynamite", false, false},
+	{"emitter", false, true}, 	{"hoverball", false, true},
+	{"lamp", false, false},         {"light", false, false},
 	{"nocollide", false, true},	{"physprop", false, true},
 	{"remover", false, true}, 	{"thruster", false, true},
-	{"wheel", false, true},		{"localphysics", true, true}
+	{"wheel", false, false},	{"localphysics", true, true}
 }
 
 GM.PosingTools = {
-	{"eyeposer", false, true}, 	{"faceposer", false, true},
-	{"finger", false, true}, 	{"inflator", false, true}
+	{"eyeposer", false, false}, 	{"faceposer", false, false},
+	{"finger", false, false}, 	{"inflator", false, false}
 }
 
 GM.RenderTools = {
